@@ -40,6 +40,13 @@ npm start
 
 La aplicación ahora debería estar corriendo en `http://localhost:3000/`.
 
+
+## Url de la App
+
+Puedes probar la aplicación en la siguiente URL: 
+`https://blockbuster-web-app.vercel.app/`
+
+
 ## Información de Conexión
 
 - **OMDB API:**  
