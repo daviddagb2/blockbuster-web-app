@@ -127,6 +127,8 @@ const MovieList: React.FC = () => {
     setError(null);
     try {
       const result = await getMovies(searchTerm || "batman");
+      result.sort((a: { Year: number; },b: { Year: number; }) =>  (a.Year > b.Year ? 1 : -1));
+
       setMovies(result);
     } catch (err) {
       if (err instanceof Error) {
